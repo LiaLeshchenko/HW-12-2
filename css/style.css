@@ -1,0 +1,223 @@
+:root {
+    --blue-color:rgb(33, 150, 243);
+    --blak-color:rgb(0, 0, 0);
+    --grey-color:rgb(117, 117, 117);
+    --white-color:rgb(255, 255, 255);
+    --address-color:rgba(255, 255, 255, 0.6);
+    --next-blak-color:rgb(33, 33, 33);
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: var(--blak-color);
+    line-height: (24 / 16);
+}
+.span {
+    color: var(--blue-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.WebStudio {
+    color: var(--blak-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.header-list-link {
+    color: var(--blue-color);
+    font-weight: 500;
+    line-height: (16 / 14);
+}
+.header-list-link2 {
+    font-weight: 500;
+    line-height: 16px;
+}
+.header-list-link3 {
+    font-weight: 500;
+    line-height: 16px;
+}
+.header-contact-item {
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--blue-color);
+}
+.header-contact-item2 {
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--grey-color);
+}
+.hero-title {
+    color: var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.hero {
+    background: rgb(47, 48, 58);
+}
+.button-hero-title {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: rgb(33, 150, 243);
+}
+.advantages-item-title{
+    font-weight: 700;
+    line-height: 16px;
+}
+.advantages-item-text {
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    line-height: 24px;
+}
+.developments-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ourteam {
+    background-color: rgb(245, 244, 250);
+}
+.signature-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.signature-text {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.header-contact-item3 {
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+.header-contact-item4 {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer {
+    background-color:  rgb(47, 48, 58);
+}
+.webstudio {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.header-Web {
+    color: rgb(33, 150, 243);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.Studio {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.content-item1 {
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item2 {
+    color: rgb(33, 150, 243);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item3 {
+    color: rgb(33, 33, 33);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item4 {
+    color: rgb(33, 150, 243);
+    font-weight: 500;
+    line-height: 16px;
+}
+.content-item5 {
+    color: rgb(117, 117, 117);
+    font-weight: 500;
+    line-height: 16px;
+}
+.post-item {
+    background: rgb(33, 150, 243);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 26px;
+}
+.post-item2 {
+    color: rgb(33, 33, 33);
+    background: rgb(245, 244, 250);
+    font-weight: 500;
+    line-height: 26px;
+}
+.button-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 31px;
+}
+.list-title2 {
+    color: rgb(33, 33, 33);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.list-text {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;    
+}
+.header-Studio {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.city {
+    color: rgb(255, 255, 255);
+}
+.mailto {
+    color: (255, 255, 255, 0.6);
+}
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px dotted orangered;
+}
+.header {
+    margin-bottom: 32px;
+}
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 118px;
+}
+.developments-title {
+    padding-bottom: 50px;
+}
+.link-list {
+    padding-bottom: 188px;
+}
+.developments-title {
+    padding-bottom: 50px;
+}
+.signature-text {
+    padding-bottom: 124px;
+}
+
