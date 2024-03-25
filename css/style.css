@@ -6,45 +6,46 @@
     --address-color:rgba(255, 255, 255, 0.6);
     --next-blak-color:rgb(33, 33, 33);
 }
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 3px dotted orangered;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: var(--blak-color);
     line-height: (24 / 16);
 }
-.span {
-    color: var(--blue-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
-.WebStudio {
+.header-Studio {
     color: var(--blak-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
 }
-.header-list-link {
+.item {
     color: var(--blue-color);
     font-weight: 500;
     line-height: (16 / 14);
 }
-.header-list-link2 {
+.item2 {
     font-weight: 500;
     line-height: 16px;
 }
-.header-list-link3 {
+.item3 {
     font-weight: 500;
     line-height: 16px;
 }
-.header-contact-item {
+.contact-item {
     font-weight: 500;
     line-height: 16px;
     color: var(--blue-color);
 }
-.header-contact-item2 {
+.contact-item2 {
     font-weight: 500;
     line-height: 16px;
     color: var(--grey-color);
@@ -70,11 +71,16 @@ body {
     line-height: 16px;
 }
 .advantages-item-text {
-    color: rgb(117, 117, 117);
+    color: var(--grey-color);
     font-weight: 400;
     line-height: 24px;
 }
 .developments-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ourteam-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 42px;
@@ -88,40 +94,33 @@ body {
     line-height: 19px;
 }
 .signature-text {
-    color: rgb(117, 117, 117);
+    color: var(--grey-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
 }
-.header-contact-item3 {
+.footer-contact1 {
     font-weight: 400;
     line-height: 24px;
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
 }
-.header-contact-item4 {
-    color: rgba(255, 255, 255, 0.6);
+.footer-contact2 {
+    color: var(--address-color);
     font-weight: 400;
     line-height: 24px;
 }
 .footer {
     background-color:  rgb(47, 48, 58);
 }
-.webstudio {
-    color: rgb(255, 255, 255);
+.footer-Web {
+    color: var(--blue-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
 }
 .header-Web {
-    color: rgb(33, 150, 243);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
-.Studio {
-    color: rgb(0, 0, 0);
+    color: var(--blue-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -132,92 +131,74 @@ body {
     line-height: 16px;
 }
 .content-item2 {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
     font-weight: 500;
     line-height: 16px;
 }
 .content-item3 {
-    color: rgb(33, 33, 33);
+    color: var(--next-blak-color);
     font-weight: 500;
     line-height: 16px;
 }
 .content-item4 {
-    color: rgb(33, 150, 243);
+    color: var(--blue-color);
     font-weight: 500;
     line-height: 16px;
 }
 .content-item5 {
-    color: rgb(117, 117, 117);
+    color: var(--grey-color);
     font-weight: 500;
     line-height: 16px;
 }
-.post-item {
+.portfolio-filter-button {
     background: rgb(33, 150, 243);
-    color: rgb(255, 255, 255);
+    color: var(--white-color);
     font-weight: 500;
     line-height: 26px;
 }
-.post-item2 {
-    color: rgb(33, 33, 33);
+.filter-button {
+    color: var(--next-blak-color);
     background: rgb(245, 244, 250);
     font-weight: 500;
     line-height: 26px;
 }
-.button-title {
+.portfolio-title {
     font-weight: 900;
     font-size: 40px;
     line-height: 31px;
 }
-.list-title2 {
-    color: rgb(33, 33, 33);
+.portfolio-list-title {
+    color: var(--next-blak-color);
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
 }
-.list-text {
-    color: rgb(117, 117, 117);
+.portfolio-list-text {
+    color: var(--grey-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;    
 }
-.header-Studio {
-    color: rgb(255, 255, 255);
+.footer-Studio {
+    color: var(--white-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
 }
-.city {
-    color: rgb(255, 255, 255);
-}
-.mailto {
-    color: (255, 255, 255, 0.6);
-}
-.conteiner {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 3px dotted orangered;
-}
 .header {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+}
+.hero {
+    margin-bottom: 94px;
 }
 .advantages {
-    padding-top: 94px;
     padding-bottom: 118px;
 }
-.developments-title {
-    padding-bottom: 50px;
+.developments {
+    padding-bottom: 94px;
 }
-.link-list {
-    padding-bottom: 188px;
-}
-.developments-title {
-    padding-bottom: 50px;
-}
-.signature-text {
-    padding-bottom: 124px;
+.ourteam {
+    padding-bottom: 94px;
 }
 
