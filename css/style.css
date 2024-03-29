@@ -56,6 +56,7 @@ body {
     font-weight: 900;
     line-height: 60px;
     width: 696px;
+    margin: 0 auto;
 }
 .hero {
     background: rgb(47, 48, 58);
@@ -196,12 +197,6 @@ body {
 .developments {
     margin-bottom: 94px;
 }
-.ourteam {
-    margin-bottom: 94px;
-}
-.portfolio {
-    margin-bottom: 94px;
-}
 .container {
     width: 1230px;
     padding-left: 15px;
@@ -210,7 +205,7 @@ body {
     margin-right: auto;
     outline: 3px dotted orangered; 
 } 
-.header-container {
+.header {
     margin-bottom: 92px;
 }
 .hero {
